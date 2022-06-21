@@ -1,12 +1,14 @@
 #!/bin/bash
 
 lines='---------------------------------'
+echo -n 'How Frequent? : '
+read time1
 
 while true; do
     clear
     date
     echo $lines
-    $HOME/Downloads/pfetch-0.6.0/pfetch
+    $HOME/Downloads/pfetch_for_script/pfetch
     echo $lines
     echo -n 'Battery Capacity : '
     cat /sys/class/power_supply/BAT0/capacity
@@ -14,5 +16,8 @@ while true; do
     cat /sys/class/power_supply/BAT0/status
     echo $lines
     sensors | grep Core
-    sleep 60
+    echo $lines
+    inxi -C
+    #inxi -C | grep min
+    sleep $time1 #timer
 done
