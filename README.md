@@ -1,7 +1,6 @@
 # pfetch-battery-status
 
-**Notice**
-**in order to make it work on your system you need to change the location of pfetch and the grep of sensors**
+**Notice! in order to make it work on your system you need to change the location of pfetch and the grep of sensors**
 
 
 
