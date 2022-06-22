@@ -8,7 +8,7 @@ while true; do
     clear
     date
     echo $lines
-    $HOME/Downloads/pfetch_for_script/pfetch
+    pfetch
     echo $lines
     echo -n 'Battery Capacity : '
     cat /sys/class/power_supply/BAT0/capacity
