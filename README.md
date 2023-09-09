@@ -37,7 +37,6 @@ git clone https://github.com/dylanaraps/pfetch.git
 git clone https://github.com/stking68/pfetch-battery-status.git
 cd pfetch-battery-status/
 mv battery_status.sh ~/
-sudo rm -rf pfetch-battery-status/
 ```
 
 
