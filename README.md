@@ -1,7 +1,53 @@
 # pfetch-battery-status
 
-**Notice! in order to make it work on your system you need to change the location of pfetch and the grep of sensors**
-
-
+### Screenshot :
 
 ![screenshot](https://raw.githubusercontent.com/stking68/pfetch-battery-status/main/screenshot.png)
+
+### Features :
+
+- Shows Date/Time and vital System Info all in One Script!
+
+- Modify the script as you see fit :)
+
+### Prerequisite's :
+
+1. Have pfetch installed
+2. Have inxi installed
+
+### Installing inxi Using a Package Manager :
+
+Arch:
+
+`sudo pacman -S inxi`
+
+Ubuntu/Debian:
+
+`sudo apt install inxi`
+
+### Installing pfetch :
+
+```
+git clone https://github.com/dylanaraps/pfetch.git
+cd pfetch/
+mv pfetch ~/
+sudo rm -rf pfetch/
+```
+
+### Installation :
+
+```
+git clone https://github.com/stking68/pfetch-battery-status.git
+cd pfetch-battery-status/
+mv battery_status.sh ~/
+sudo rm -rf pfetch-battery-status/
+```
+
+
+
+### Usage :
+
+```
+sudo chmod +x battery_status.sh *To make it executable for the first time*
+./battery_status.sh
+```
