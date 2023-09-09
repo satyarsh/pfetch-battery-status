@@ -15,9 +15,8 @@ while true; do
     echo -n 'Battery Status : '
     cat /sys/class/power_supply/BAT0/status
     echo $lines
-    sensors | grep Core
+    sensors | grep C
     echo $lines
     inxi -C
-    #inxi -C | grep min
     sleep $time1 #timer
 done
