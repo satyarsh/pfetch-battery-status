@@ -1,4 +1,4 @@
-# pfetch-battery-status
+## pfetch-battery-status
 
 ### Screenshot :
 
