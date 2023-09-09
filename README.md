@@ -29,9 +29,6 @@ Ubuntu/Debian:
 
 ```
 git clone https://github.com/dylanaraps/pfetch.git
-cd pfetch/
-mv pfetch ~/
-sudo rm -rf pfetch/
 ```
 
 ### Installation :
