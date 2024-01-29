@@ -2,7 +2,7 @@
 
 ### Screenshot :
 
-![screenshot](https://raw.githubusercontent.com/stking68/pfetch-battery-status/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/satyarsh/pfetch-battery-status/main/screenshot.png)
 
 ### Features :
 
@@ -34,7 +34,7 @@ git clone https://github.com/dylanaraps/pfetch.git
 ### Installation :
 
 ```
-git clone https://github.com/stking68/pfetch-battery-status.git
+git clone https://github.com/satyarsh/pfetch-battery-status.git
 cd pfetch-battery-status/
 ```
 
